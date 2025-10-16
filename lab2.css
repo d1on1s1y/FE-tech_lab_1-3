@@ -1,0 +1,73 @@
+table {
+  border-collapse: collapse; 
+  width: 80%;
+}
+td {
+
+  border: 1px solid black; 
+  width: 100px;
+    height: 50px;
+    text-align: center;
+} 
+.first-row {
+    background-color: #448f8f;
+    color: #00141A;
+}
+.first-row:hover{
+  background-color: #bb7070;  
+}
+.second-row {
+    background-color: #f5f544;
+    color: #00141A;
+}
+.second-row:hover{
+    background-color: #0a0abb;
+}
+
+.position-target {
+    margin-top: 50px;
+    margin-left: 50px;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 10px solid black;
+  box-sizing: border-box; 
+}
+
+.position-target::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60px;
+  height: 60px;
+  border: 10px solid black;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+}
+
+
+.position-target::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -20%;
+  width: 140%;
+  height: 10px;
+  background-color: black;
+  transform: translateY(-50%);
+}
+
+
+.position-target .vertical-line {
+  content: '';
+  position: absolute;
+  top: -20%;
+  left: 50%;
+  width: 10px;
+  height: 140%;
+  background-color: black;
+  transform: translateX(-50%);
+}
