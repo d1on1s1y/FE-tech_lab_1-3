@@ -28,10 +28,10 @@ td {
     margin-top: 50px;
     margin-left: 50px;
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
-  border: 10px solid black;
+  border: 20px solid black;
   box-sizing: border-box; 
 }
 
