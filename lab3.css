@@ -1,0 +1,40 @@
+div {
+    font-size: 20px;
+    text-align: center;
+
+    /* width: 100%; */
+}
+h2{
+    margin: 0;
+}
+.container {
+    margin: 100px auto;
+    width: 1000px;
+    height: 750px;
+}
+
+.block-1 {
+    background-color: rgb(101, 204, 252);
+    float: left;
+    width: 250px;
+    height: 500px;
+}
+.block-2 {
+    background-color: rgb(154, 252, 255);
+    float: right;
+    width: 750px;
+    height: 500px;
+}
+
+.block-3 {
+    background-color: rgb(50, 81, 255);
+    clear: both;
+    width: 1000px;
+    height: 125px;
+}
+.block-4 {
+    background-color: rgb(255, 255, 109);
+    width: 1000px;
+    height: 125px;
+    
+}
