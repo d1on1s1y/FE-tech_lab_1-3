@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Варіант 4</title>
+    <link rel="stylesheet" href="lab5.css" />
+  </head>
+  <body>
+    <div class="firstTask">
+      <form action="/submit-data">
+        <div class="inputLine">
+          <label for="pib">ПІБ:</label>
+          <input
+            type="text"
+            id="pib"
+            name="pib"
+            required
+            placeholder="Петренко А. І."
+          />
+        </div>
+
+        <div class="inputLine">
+          <label for="passport">Номер паспорта:</label>
+          <input
+            type="text"
+            id="passport"
+            name="passport"
+            required
+            placeholder="ЛЛ №123456"
+          />
+        </div>
+
+        <div class="inputLine">
+          <label for="faculty">Факультет:</label>
+          <input
+            type="text"
+            id="faculty"
+            name="faculty"
+            required
+            placeholder="ФІОТ"
+          />
+        </div>
+
+        <div class="inputLine">
+          <label for="dob">Дата народження:</label>
+          <input type="date" id="dob" name="date_of_birth" required />
+        </div>
+
+        <br />
+
+        <button type="submit">Відправити дані</button>
+      </form>
+      <div class="submittedData">
+        <button id="clearButton" style="margin-bottom: 20px">Очистити</button>
+        <div class="submittedDataCards"></div>
+      </div>
+    </div>
+    <div>
+      <label for="colorPicker">Оберіть колір:</label>
+      <input type="color" id="colorPicker" name="favcolor" value="#ff0000" />
+      <table>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td id="variantCell">4</td>
+          <td>5</td>
+          <td class="diagonal">6</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+          <td class="diagonal">11</td>
+          <td>12</td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>14</td>
+          <td>15</td>
+          <td class="diagonal">16</td>
+          <td>17</td>
+          <td>18</td>
+        </tr>
+        <tr>
+          <td>19</td>
+          <td>20</td>
+          <td class="diagonal">21</td>
+          <td>22</td>
+          <td>23</td>
+          <td>24</td>
+        </tr>
+        <tr>
+          <td>25</td>
+          <td class="diagonal">26</td>
+          <td>27</td>
+          <td>28</td>
+          <td>29</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td class="diagonal">31</td>
+          <td>32</td>
+          <td>33</td>
+          <td>34</td>
+          <td>35</td>
+          <td>36</td>
+        </tr>
+      </table>
+    </div>
+    <script type="module" src="lab5.js"></script>
+  </body>
+</html>
