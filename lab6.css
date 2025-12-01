@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: rgb(37, 45, 71);
+    padding: 30px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: 20px;
+    border: solid, 3px, #dce8ff;
+    border-radius: 20px;
+    background-color: rgb(37, 45, 71);
+    font-size: 20px;
+    color:#dce8ff ;
+}
+button:hover{
+    transition: 300ms;
+background-color: #dce8ff;
+color:rgb(37, 45, 71);
+}
+.dataCards{
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+gap: 15px;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
