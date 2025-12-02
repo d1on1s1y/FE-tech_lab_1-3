@@ -45,6 +45,7 @@ const generateCardsHTML = (array) => {
 
 generateCardsHTML(submittedData)
 
+///завдання 2
 
 const paintRed = (el) =>{
     el.style.borderColor = 'red'
@@ -57,6 +58,7 @@ document.getElementById('clearButton').addEventListener('click', () =>{
     submittedDataCards.innerHTML = ''
     submittedData = []
 })
+
 
 form.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -79,7 +81,7 @@ form.addEventListener('submit', (e) => {
     }}
 );
 
-///завдання 2
+
 
 const variantCell = document.getElementById('variantCell')
 const colorPicker = document.getElementById('colorPicker')
