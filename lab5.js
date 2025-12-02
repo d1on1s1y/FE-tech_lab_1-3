@@ -96,8 +96,10 @@ variantCell.addEventListener('mouseout', (e) =>{
     e.target.style.backgroundColor = variantCellColor
 })
 variantCell.addEventListener('click', (e) => {
-    variantCellColor = pickedColor
-     e.target.style.backgroundColor = variantCellColor
+    if (pickedColor) {
+        variantCellColor = pickedColor
+        e.target.style.backgroundColor = variantCellColor        
+    }
 })
 variantCell.addEventListener('dblclick', ()=>{
     diagonal.forEach((e)=>{
